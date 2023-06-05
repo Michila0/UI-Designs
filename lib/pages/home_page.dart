@@ -16,8 +16,7 @@ class _HomePageState extends State<HomePage> {
         Row(children: const [
           //Hi, Michila
           Text(
-            ' Enjoy the world '
-                '\n into Virtual reality',
+            ' Enjoy the world \n into Virtual reality',
             style: TextStyle(
               color: Colors.black,
               fontSize: 24,
