@@ -10,6 +10,8 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
+
+
   @override
   Widget build(BuildContext context) {
     //It provides us total height and width
@@ -22,14 +24,29 @@ class _BodyState extends State<Body> {
             child: Stack(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(top: size.height*0.3),
+                  margin: EdgeInsets.only(top: size.height*0.4),
+                  padding: EdgeInsets.only(
+                      top: size.height*0.10,
+
+                  ),
                   height: 500,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(24),
                         topRight: Radius.circular(24)
-                    )
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: Alignment.topCenter,
+                  child: Container(
+                    margin: EdgeInsets.only(top: 325),
+                    width: 80,
+                    height: 5,
+                    decoration: BoxDecoration(
+                      color: Colors.grey
+                    ),
                   ),
                 )
               ],
