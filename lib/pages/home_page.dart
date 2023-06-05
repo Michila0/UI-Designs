@@ -13,9 +13,20 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(children: [
-        Row(children: [
+        Row(children: const [
           //Hi, Michila
-          Text("Hi, Michila"),
+          Text(
+            ' Enjoy the world '
+                '\n into Virtual reality',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              // decoration: TextDecoration.overline,
+              overflow: TextOverflow.fade,
+
+            ),
+          ),
           //Notification
 
         ],)
