@@ -38,9 +38,9 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueAccent,
-      appBar: AppBar(
-        backgroundColor: ,
-      ),
+    //   appBar: AppBar(
+    //     // backgroundColor: ,
+    //   ),
     );
   }
 }

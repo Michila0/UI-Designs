@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_design/pages/body.dart';
 import 'package:ui_design/pages/home_page.dart';
 import 'package:ui_design/pages/product_details_page.dart';
 import 'package:ui_design/pages/nav_bar.dart';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ProductDetailsPage()//BottomNavBar(),ProductDetailsPage(),//HomePage(),//const MyHomePage(title: 'Flutter Demo'),
+      home: Body(),//BottomNavBar(),ProductDetailsPage(),//HomePage(),//const MyHomePage(title: 'Flutter Demo'),
     );
   }
 }

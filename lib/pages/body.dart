@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ui_design/pages/home_page.dart';
+import 'package:ui_design/pages/product_details_page.dart';
 
 class Body extends StatefulWidget {
   const Body({super.key});
@@ -10,6 +12,8 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
+    ProductDetailsPage();
+    HomePage();
     //It provides us total height and width
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
@@ -20,9 +24,14 @@ class _BodyState extends State<Body> {
             child: Stack(
               children: <Widget>[
                 Container(
+                  margin: EdgeInsets.only(top: size.height*0.3),
                   height: 500,
                   decoration: BoxDecoration(
-                    color: Color.white,
+                    color: Colors.white,
+                    borderRadius: BorderRadius.only(
+                        topLeft: Radius.circular(24),
+                        topRight: Radius.circular(24)
+                    )
                   ),
                 )
               ],
