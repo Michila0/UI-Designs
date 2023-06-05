@@ -12,8 +12,6 @@ class Body extends StatefulWidget {
 class _BodyState extends State<Body> {
   @override
   Widget build(BuildContext context) {
-    ProductDetailsPage();
-    HomePage();
     //It provides us total height and width
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_design/pages/body.dart';
 
 // class product_details_page {
 //   final String id, price, title, images, description;
@@ -37,6 +38,7 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Body(),
       backgroundColor: Colors.blueAccent,
     //   appBar: AppBar(
     //     // backgroundColor: ,
