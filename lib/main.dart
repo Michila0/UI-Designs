@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ProductDetailsPage(),//BottomNavBar(),ProductDetailsPage(),//HomePage(),//const MyHomePage(title: 'Flutter Demo'),
+      home: BottomNavBar(),//BottomNavBar(),ProductDetailsPage(),//HomePage(),//const MyHomePage(title: 'Flutter Demo'),
     );
   }
 }
