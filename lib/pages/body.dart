@@ -14,12 +14,17 @@ class _BodyState extends State<Body> {
     Size size = MediaQuery.of(context).size;
     return SingleChildScrollView(
       child: Column(
-        children: <widget>[
+        children: <Widget>[
           SizedBox(
             height: size.height,
             child: Stack(
-              children: <widget>[
-                Container()
+              children: <Widget>[
+                Container(
+                  height: 500,
+                  decoration: BoxDecoration(
+                    color: Color.white,
+                  ),
+                )
               ],
             ),
           )
