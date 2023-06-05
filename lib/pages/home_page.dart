@@ -10,9 +10,16 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: Colors.white,
-      body: Column,
+      body: Column(children: [
+        Row(children: [
+          //Hi, Michila
+          Text("Hi, Michila"),
+          //Notification
+
+        ],)
+      ]),
     );
   }
 }
