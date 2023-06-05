@@ -14,8 +14,8 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       body: Column(children: [
         Row(children: const [
-          //Hi, Michila
           Text(
+            //display the name
             ' Enjoy the world \n into Virtual reality',
             style: TextStyle(
               color: Colors.black,
@@ -23,7 +23,6 @@ class _HomePageState extends State<HomePage> {
               fontWeight: FontWeight.bold,
               // decoration: TextDecoration.overline,
               overflow: TextOverflow.fade,
-
             ),
           ),
           //Notification
