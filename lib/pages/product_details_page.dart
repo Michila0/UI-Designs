@@ -38,23 +38,6 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue,
-      body: Column(children: [
-        Row(children: const [
-          Text(
-            //display the name
-            ' Enjoy the world \n into Virtual reality',
-            style: TextStyle(
-              color: Colors.black,
-              fontSize: 24,
-              fontWeight: FontWeight.bold,
-              // decoration: TextDecoration.overline,
-              overflow: TextOverflow.fade,
-            ),
-          ),
-          //Notification
-
-        ],)
-      ]),
     );
   }
 }
